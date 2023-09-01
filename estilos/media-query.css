@@ -15,6 +15,7 @@ TV: 992px até 1200px
     
     section#Login{
         width: 80vw;
+        height: 290px;
     }
 
     section#Login > div#imagem {
@@ -23,10 +24,12 @@ TV: 992px até 1200px
         height: 100%;
     }
     
-    section#Login > div#fomulario{
+    section#Login > div#formulário{
         float: right;
         width: 70%;
+        height: 100%;
     }
+
 }
 
 @media screen and (min-width: 992px){
@@ -37,6 +40,7 @@ TV: 992px até 1200px
     
     section#Login{
         width: 950px;
+        height: 350px;
     }
 
     section#Login > div#imagem{
@@ -44,13 +48,19 @@ TV: 992px até 1200px
         width: 50%;
         height: 100%;
     }
-
-    section#Login > div#formulario {
+    section#Login > div#formulário {
         float: left;
         width: 50%;
+        height: 100%;
+    }
+
+   
+    div#formulário > h1{
+        font-size: 2em;
     }
 
     div#formulário > p{
         font-size: 1.2em;
     }
+
 }
