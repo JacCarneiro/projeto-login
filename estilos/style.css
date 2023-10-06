@@ -13,10 +13,10 @@
     box-sizing: border-box;
 }
 
+
 body, html{
     background-image: linear-gradient(to top, #025B8A, #0375b3, #0692dd); 
-    height: 100vh;
-    width: 100vw;
+  
 }
 
 main{
@@ -41,13 +41,13 @@ section#Login{
     transform: translate(-50%, -50%);
 }
 
-section#Login > div#imagem{
+/*section#Login > div#imagem{
     display: block;
     background: #5f2c82 url(../imagens/img.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
-}
+}*/
 
 section#Login > div#formulário{
     display: block;
@@ -84,7 +84,7 @@ div.campo > i{
 }
 
 div.campo > input{
-    background-color: #51b3af;
+    /*background-color: #51b3af;*/
     font-size: 1em;
     height: 100%;
     /* calculo nas CSS*/
@@ -94,11 +94,12 @@ div.campo > input{
     padding: 4px;
     /*Sempre deve colocar o translate no final nos atributos*/
     transform: translateY(-13px);
+    border: 1px solid black;
 }
 
 div.campo > input:focus-within{
     background-color: white;
-    border: none;
+    
 }
 
 form > input[type=submit]{
@@ -136,4 +137,11 @@ form > a.botao:hover{
 
 form > a.botao > i{
     font-size: 0.8em;
+}
+h1{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    color: white;
 }
