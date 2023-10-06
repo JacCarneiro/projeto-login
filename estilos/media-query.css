@@ -39,8 +39,8 @@ TV: 992px até 1200px
     }
     
     section#Login{
-        width: 350px;
-        height: 200px;
+        width: 70vw;
+        height: 290px;
     }
 
     section#Login > div#imagem{
